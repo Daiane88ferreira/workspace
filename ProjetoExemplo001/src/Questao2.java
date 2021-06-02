@@ -1,20 +1,17 @@
 
-	import javax.swing.JOptionPane;
+import  javax.swing. * ;
+public  class  Questao2 {
 
-	public class Questao2 {
-
-		public static void main(String[] args) {
-			// TODO Auto-generated method stub
-			int num = Integer.parseInt(JOptionPane.showInputDialog("Digite 1 número."));
-			int n1 = num -1; 
-			int n2 = +1;
+	public  static  void  main ( String [] args ) {
+		
+		
+		
+		JOptionPane . showMessageDialog ( null , " Vamos somar " , " Soma " , JOptionPane . QUESTION_MESSAGE );
+		double soma1 =  Double . parseDouble ( JOptionPane . showInputDialog ( " Insira um número " ));
+		duplo soma2 =  duplo . parseDouble ( JOptionPane . showInputDialog ( " Insira outro número " ));
+		resultado duplo = soma1 + soma2;
+		JOptionPane . showMessageDialog ( null , " O Resultado entre "  + soma1 + " e "  + soma2 +  " é = "  + resultado);
 			
-			
-			JOptionPane.showMessageDialog(null, "Os vizinhos são "+n1+" e "+n2);
-			
-			
-
-		}
-
 	}
 
+}
